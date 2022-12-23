@@ -1,0 +1,98 @@
+
+.color-main, .box-style-1 .demo-icon:before, .bottom-download span, .cart-order .dropdown-toggle span.number, .view-style .btn-view.active, .nav li.active a, .nav_desktop ul li:hover ul li a:hover, .title-product a:hover, .title-desc-detail, .nav-tabs-01 .nav-tabs li span .demo-icon, .nav-tabs-01 .nav-tabs li.active i.icon-dot-circled, .nav_desktop ul li.sub-menu-style2 ul li a:hover, .nav_desktop ul li.sub-menu-style2:hover ul li a:hover, .breadcrumb > .active, .newsletter .btn-default{color: #ef2b2b;}
+
+.nav-tabs-01 li.active .arrow-left::after, .nav-tabs-01 li.active .arrow-left::after { border-right-color: #ed1c24;}
+.nav-tabs-01 .nav-tabs li.active span .demo-icon {color:#ed1c24}
+
+.btn-main, .btn-primary, a.btn-primary{ background-color:#ed1c24;border: 1px solid #ed1c24; color:#fff;}
+.btn-main.focus, .btn-main:focus, .btn-main:hover, .btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+    background-color: #ea0009;
+    border-color: #ea0009;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover,.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover, .pagination>li.active>a{background-color:#ed1c24; border-color: #ed1c24;}
+.btn-icon:hover{color: #ed1c24;border-color: #ed1c24}
+.btn-primary, a.btn-primary{ color:#fff;}
+.bg-default {background-color:#383838;}
+/*.btn-default {background-color:#383838;border: 1px solid #383838; color:#fff;}*/
+.btn-default.focus, .btn-default:focus, .btn-default:hover {
+    background-color: #e3e3e3;
+    border-color: #ea0009; color:#ea0009;
+}
+.jslider .jslider-bg i, .jslider .jslider-pointer {background: url(../images/jslider.png) no-repeat 0 0;}
+.jslider .jslider-pointer {
+    background-position: 0 -60px;
+}
+.box-product-style2 .nav_title li {padding: 0 15px 0 0;}
+.box-product-style2 .nav_title li a::before {display:none}
+.box-product-style2 .nav_title li a {
+    text-transform: inherit;
+    font-weight: normal;
+    font-size: 15px;
+}
+.box-product-style2 .tab-product .nav_title{ border:none; margin:0;}
+
+.nav-right .btn-show-search {
+    font-size: 24px !important;
+    padding: 0;
+    line-height: 55px;
+    width: 50px;
+    height: 50px;
+    display:  block;
+    text-align: center;
+}
+a.btn-show-search {
+    color: #ffffff;
+}
+.nav-right>.box-search-mobile>.btn-show-search {
+    margin: 0;
+    padding: 0;
+}
+.box-search-mobile .box-search>.form-inline {
+    border: none;
+}
+
+.box-search-mobile .btn-search {
+    right: 0;
+    height: 38px;
+}
+
+
+body {
+    max-width: 1920px;
+    margin: auto;
+}		
+
+@media(min-width:992px){
+        .top-product-mon .col-xs-6:nth-child(3n+1){clear: both;}
+        /*.list-item:nth-child(3n +1){ clear: both; }*/
+        .search-product .list-item:nth-child(3n +1){ clear: none; }
+        .search-product .list-item:nth-child(4n +1){ clear: both; }
+    }
+
+
+
+@media (max-width: 992px) and (min-width: 481px){
+ /*.list-item:nth-child(2n +1){ clear: both; }*/
+}
+ @media(max-width:991px){
+        .top-product-mon .col-xs-6:nth-child(2n+1){clear: both;}
+
+    }
+@media(max-width:767px){
+        .hotline{ padding:0; margin-top:-50px; text-align:right;}
+
+    }
+@media(max-width:480px){
+    .hotline{ margin:0px 0; text-align:left;}
+	#sub-menu01 li .tab-item{ padding:7px 0; margin-right: -10px;}
+	.dropdown {float:right;}
+	.ab-1-right {margin-left: -15px;padding-right: 12px !important;}
+	.ab-1-left { padding-right: 0px;padding-right: 15px; margin-left: -5px !important;}
+}
+/****fix lech hang san pham khi height sp k bang nhau trang list sp va search sp***/
+
+
+
+
+
+

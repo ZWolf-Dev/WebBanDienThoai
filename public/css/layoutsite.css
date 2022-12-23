@@ -1,0 +1,9 @@
+.bg-mainmenu
+{
+    background-color: black;
+}
+
+@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret { transform: rotate(-90deg);}
+ }
+ 
