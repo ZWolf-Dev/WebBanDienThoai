@@ -24,7 +24,7 @@ $listcat = $category->category_parentid(0);
     </div>
   </div>
   <a href="index.php?option=product/product&id=7&quantity=1&price=25009000&pricesale=20000000">
-    <img class="button-slider" src="public/images/button-slider.png" alt="public/images/button-slider.png">
+    <img style="width: 100%" class="button-slider" src="public/images/button-slider.png" alt="public/images/button-slider.png">
   </a>
   <div class="container">
     <!--end slider-->
@@ -58,7 +58,7 @@ $listcat = $category->category_parentid(0);
             </a>
             <div class="row m-auto">
               <?php foreach ($listproduct as $pro) : ?>
-                <div class="col-md-3">
+                <div class="col-md-3" style="padding-top: 10px;">
                   <div style="height:28em;" id="card" class="card">
                     <a href="index.php?option=product/product&id=<?php echo $pro['id']; ?>&quantity=<?php echo $pro['quantity']; ?>&price=<?php echo $pro['price']; ?>&pricesale=<?php echo $pro['pricesale']; ?>">
                       <img style="height:11em;" id="imgcard" src="public/images/products/<?php echo $pro['image']; ?>" class="card-img-top" alt="<?php echo $pro['image']; ?>">

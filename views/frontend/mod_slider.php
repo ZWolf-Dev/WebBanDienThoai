@@ -20,13 +20,13 @@ $list_slider = $slider->slider_list($args);
         <?php if ($index == 1) : ?>
           <div class="carousel-item active" style="min-width: 61em; min-height:33em;">
             <a href="<?php echo $slider_row['link']; ?>">
-              <img id="imgslider" style="width: 61em; height:33em;" src="public/images/sliders/<?php echo $slider_row['image']; ?>" class="d-block" alt="<?php echo $slider_row['image']; ?>">
+              <img id="imgslider" style="width: 100%; height:33em;" src="public/images/sliders/<?php echo $slider_row['image']; ?>" class="d-block" alt="<?php echo $slider_row['image']; ?>">
             </a>
           </div>
         <?php else : ?>
           <div class="carousel-item">
             <a href="<?php echo $slider_row['link']; ?>">
-              <img id="imgslider" style="width: 61em; height:33em;" src="public/images/sliders/<?php echo $slider_row['image']; ?>" class="d-block" alt="<?php echo $slider_row['image']; ?>">
+              <img id="imgslider" style="width: 100%; height:33em;" src="public/images/sliders/<?php echo $slider_row['image']; ?>" class="d-block" alt="<?php echo $slider_row['image']; ?>">
             </a>
           </div>
         <?php endif; ?>

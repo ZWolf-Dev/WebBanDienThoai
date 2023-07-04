@@ -12,9 +12,6 @@ foreach ($list as $item) {
 }
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html>
 
